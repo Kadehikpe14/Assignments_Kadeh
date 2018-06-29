@@ -1,0 +1,20 @@
+firstName = input("First Name: ")
+lastName = input("Last Name: ")
+Age = input("Age: ")
+Age = int(Age)
+double = (0.5)
+
+Pi = (3.147)
+r = float(input("Radius: "))
+Area = (Pi)
+
+print("Welcome to Python " + firstName)
+print()
+
+print("You wil be ")
+print(Age / double)
+print("years old in a number of years time.")
+print("")
+
+print("The area of the circle is:")
+print(Pi * r * 2)
