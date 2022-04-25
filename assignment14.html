@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Add to this List!</h2>
+<button onclick="myFunction()">Click to add fruits!</button>
+<p id="demo"></p>
+<script>
+var fruits = ["apple", "pear", "orange"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+    fruits.push("banana");
+    document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+</body>
+</html>

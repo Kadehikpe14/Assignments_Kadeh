@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+First Name: 
+<input type="text" id="fname" value="John">
+<button onclick="checkName()">Check Name</button>
+<p id="demo"></p>
+<script>
+function checkName(){
+	var firstname = document.getElementByID("fname").value;
+    var greeting;
+    var result;
+    if (firstname == "John"){
+    console.log = "Welcome John";
+    }
+document.getElementByID("demo").innerHTML = result;
+// I don't think the JS is currently working, fix later
+//     if (firstName === "John") {
+//         greeting = "Welcome John";
+//     } else {
+//         greeting = "You're not John!";
+//     }
+//    document.getElementByID("demo").innerHTML = result;
+}
+</script>
+</body>
+</html>
